@@ -1,0 +1,95 @@
+.gallery {
+  margin: 80px 0;
+  text-align: center;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__grid {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 1rem 0;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  &__grid::-webkit-scrollbar {
+    display: none;
+  }
+  &-item {
+    flex: 0 0 auto;
+    background: var(--light);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    img {
+      border-radius: 8px;
+      max-width: 100%;
+      display: block;
+    }
+  }
+
+  &__button {
+    background: #f2cbd8;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    &--left {
+      left: 10px;
+    }
+
+    &--right {
+      right: 10px;
+    }
+
+    &:hover {
+      background: var(--secondary);
+    }
+  }
+  @media (max-width: 768px) {
+    margin: 40px 0;
+    &__grid {
+      gap: 0.5rem;
+      padding: 0.5rem 0;
+    }
+
+    &-item {
+      padding: 0.5rem;
+      box-shadow: none;
+    }
+    &__button {
+      display: none;
+    }
+  }
+  @media (max-width: 480px) {
+    &-item {
+      padding: 0.25rem;
+    }
+    img {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  }
+}

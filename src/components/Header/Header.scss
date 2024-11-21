@@ -10,6 +10,10 @@
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
   z-index: 1000;
 
+  &__title {
+    margin-bottom: 0;
+  }
+
   &__logo {
     & .header__title {
       font-size: 24px;
