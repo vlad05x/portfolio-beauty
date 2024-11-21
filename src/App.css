@@ -20,6 +20,10 @@ body {
   line-height: 1.6;
 }
 
+.section-container {
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+}
+
 .wrapper {
   min-height: 100%;
   overflow: clip;
