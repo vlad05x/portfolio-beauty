@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio-beauty/static/css/main.804c9d6d.css",
+    "main.js": "/portfolio-beauty/static/js/main.fe54798a.js",
+    "index.html": "/portfolio-beauty/index.html",
+    "main.804c9d6d.css.map": "/portfolio-beauty/static/css/main.804c9d6d.css.map",
+    "main.fe54798a.js.map": "/portfolio-beauty/static/js/main.fe54798a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.804c9d6d.css",
+    "static/js/main.fe54798a.js"
+  ]
+}
