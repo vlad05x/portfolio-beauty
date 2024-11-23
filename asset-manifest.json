@@ -1,13 +1,29 @@
 {
   "files": {
     "main.css": "/portfolio-beauty/static/css/main.804c9d6d.css",
-    "main.js": "/portfolio-beauty/static/js/main.53573e2f.js",
+    "main.js": "/portfolio-beauty/static/js/main.c5a78061.js",
+    "static/media/photo14.JPG": "/portfolio-beauty/static/media/photo14.dca6eafb4ead35799eae.JPG",
+    "static/media/photo5.JPG": "/portfolio-beauty/static/media/photo5.c4f0a6973a365afc282e.JPG",
+    "static/media/photo11.JPG": "/portfolio-beauty/static/media/photo11.d1046b6bf6939a9a0e99.JPG",
+    "static/media/photo8.JPG": "/portfolio-beauty/static/media/photo8.0b0b545a80f6acea62a4.JPG",
+    "static/media/photo1.JPG": "/portfolio-beauty/static/media/photo1.26f4c8e39383541a8b4b.JPG",
+    "static/media/photo7.JPG": "/portfolio-beauty/static/media/photo7.03b9f0571ea5496f1221.JPG",
+    "static/media/photo6.JPG": "/portfolio-beauty/static/media/photo6.063593d0aba26c3a8fa4.JPG",
+    "static/media/photo9.JPG": "/portfolio-beauty/static/media/photo9.b05aef5adc34f0db0d96.JPG",
+    "static/media/photo4.JPG": "/portfolio-beauty/static/media/photo4.71b0bf7cfc6480c5853e.JPG",
+    "static/media/photo16.JPG": "/portfolio-beauty/static/media/photo16.ef39e74eaa426f06613d.JPG",
+    "static/media/avatar2.JPG": "/portfolio-beauty/static/media/avatar2.8ffe90eaee4b09790a99.JPG",
+    "static/media/photo3.JPG": "/portfolio-beauty/static/media/photo3.8a56e893099024a6c2ce.JPG",
+    "static/media/photo2.JPG": "/portfolio-beauty/static/media/photo2.18ba9b063fcb4b5cb395.JPG",
+    "static/media/photo12.JPG": "/portfolio-beauty/static/media/photo12.ee05318e0273fec02519.JPG",
+    "static/media/photo15.JPG": "/portfolio-beauty/static/media/photo15.071b0f04b1ec8108923c.JPG",
+    "static/media/photo13.JPG": "/portfolio-beauty/static/media/photo13.ea77c4a6c049289bb4fc.JPG",
     "index.html": "/portfolio-beauty/index.html",
     "main.804c9d6d.css.map": "/portfolio-beauty/static/css/main.804c9d6d.css.map",
-    "main.53573e2f.js.map": "/portfolio-beauty/static/js/main.53573e2f.js.map"
+    "main.c5a78061.js.map": "/portfolio-beauty/static/js/main.c5a78061.js.map"
   },
   "entrypoints": [
     "static/css/main.804c9d6d.css",
-    "static/js/main.53573e2f.js"
+    "static/js/main.c5a78061.js"
   ]
 }
