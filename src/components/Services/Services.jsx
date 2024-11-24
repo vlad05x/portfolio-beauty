@@ -4,7 +4,7 @@ import "./Services.scss";
 const Services = () => {
   return (
     <>
-      <div className="service">
+      <div className="service" id="services">
         <div className="service__container">
           <h2>Мої послуги</h2>
           <div className="service-grid">

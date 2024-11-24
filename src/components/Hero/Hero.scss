@@ -1,3 +1,15 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .hero {
   width: 100%;
   height: 100vh;
@@ -10,26 +22,31 @@
     height: 100%;
   }
 
-  .hero-content {
+  .hero_content {
     max-width: 600px;
+  }
+
+  .hero__title,
+  .hero__text {
+    animation: fadeIn 2s ease-out;
   }
 
   &__title {
     width: 100%;
-    max-width: 480px;
+    max-width: 550px;
     font-size: 3rem;
     font-weight: 300;
     margin-bottom: 1rem;
     color: var(--text);
   }
 
-  &__text {
+  .hero__text {
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 1.5rem;
   }
 
-  &__button {
+  .hero__button {
     display: inline-block;
     padding: 1rem 2rem;
     margin: 1rem 0;
@@ -38,6 +55,7 @@
     text-decoration: none;
     border-radius: 50px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 4s ease-out;
 
     &:hover {
       transform: translateY(-2px);
@@ -48,25 +66,28 @@
   @media (max-width: 980px) {
     padding: 0 5%;
 
-    &__title {
+    .hero__title {
       font-size: 2.5rem;
     }
 
-    .hero-content {
+    .hero_content {
       max-width: 100%;
       padding: 0 16px;
     }
   }
+
   @media (max-width: 768px) {
-    &__container {
+    .hero__container {
       flex-direction: column;
       justify-content: center;
       text-align: center;
     }
-    &__title {
+
+    .hero__title {
       font-size: 2rem;
     }
-    &__button {
+
+    .hero__button {
       padding: 0.8rem 1.5rem;
     }
   }

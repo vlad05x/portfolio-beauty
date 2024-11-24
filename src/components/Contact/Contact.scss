@@ -3,15 +3,10 @@
   background-color: #f8f8f8;
 }
 
-.contact__container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .contact__title {
   margin-top: 80px;
   text-align: center;
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
   color: var(--accent);
 }
 
@@ -30,6 +25,8 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   flex: 1;
   min-width: 300px;
+  text-align: left;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
 
 .contact-info p {
@@ -37,6 +34,10 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.5;
 }
 
 .map-container {
@@ -50,20 +51,82 @@
 
 .social-links {
   margin-top: 1rem;
+}
 
-  .social-link {
-    display: block;
-    margin: 0.5rem 0;
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s;
+.social-links .social-link {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  gap: 0.5rem;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
 
-    &:hover {
-      color: var(--accent);
-    }
+.social-links .social-link:hover {
+  color: var(--accent);
+}
 
-    i {
-      margin-right: 0.5rem;
-    }
+.social-links .social-link i {
+  margin-right: 0.5rem;
+}
+
+a {
+  color: #333;
+}
+
+@media (max-width: 450px) {
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+    overflow:scroll;
+  }
+
+  .contact__title {
+    margin-top: 40px;
+    font-size: clamp(1.4rem, 5vw, 1.8rem);
+  }
+
+  .contact-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .contact-info,
+  .map-container {
+    word-wrap: break-word;
+    padding: 1.5rem;
+    font-size: clamp(0.8rem, 3vw, 1rem);
+    max-width: 100%;
+    flex: none;
+    margin: 0 auto;
+  }
+
+  .map-container {
+    height: 300px;
+  }
+
+  .contact-info p {
+    font-size: clamp(0.8rem, 3vw, 1rem);
+    gap: 0.3rem;
+  }
+
+  .social-links .social-link {
+    font-size: clamp(0.7rem, 2.5vw, 0.9rem);
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
   }
 }

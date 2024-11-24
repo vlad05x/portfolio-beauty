@@ -25,7 +25,7 @@
     flex: 0 0 auto;
     background: var(--light);
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
 
@@ -35,7 +35,8 @@
 
     img {
       border-radius: 8px;
-      max-width: 100%;
+      width: 350px;
+      height: 350px;
       display: block;
     }
   }
@@ -80,7 +81,9 @@
       box-shadow: none;
     }
     &__button {
-      display: none;
+      display: block;
+      width: 40px;
+      height: 40px;
     }
   }
   @media (max-width: 480px) {

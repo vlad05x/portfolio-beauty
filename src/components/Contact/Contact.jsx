@@ -1,4 +1,6 @@
 import React from "react";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import "./Contact.scss";
 
 const Contact = () => {
@@ -26,7 +28,7 @@ const Contact = () => {
                   fillRule="evenodd"
                 />
               </svg>{" "}
-              Телефон: +7 (XXX) XXX-XX-XX
+              Телефон: <a href="tel:+380999262213">+380999262213</a>
             </p>
             <p>
               <svg
@@ -46,7 +48,7 @@ const Contact = () => {
                   fillRule="evenodd"
                 />
               </svg>{" "}
-              Email: info@beautypractice.com
+              Email: <a href="natalia_harchenko_pm@ukr.net">natalia_harchenko_pm@ukr.net</a>
             </p>
             <p>
               <svg
@@ -66,31 +68,31 @@ const Contact = () => {
                   fillRule="evenodd"
                 />
               </svg>{" "}
-              Адреса: г. Москва, ул. Примерная, д. 1
+              Адреса: Кропивницкий, ул. Тараса Карпы, 57
             </p>
             <div className="social-links">
               <h3>Соціальні мережі</h3>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/nataliakharchenko_permanent/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
               >
-                <i className="fab fa-instagram"></i> Instagram
+                <FaInstagramSquare /> Instagram
               </a>
               <a
-                href="https://t.me/yourhandle"
+                href="https://t.me/Наталия"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
               >
-                <i className="fab fa-telegram"></i> Telegram
+                <FaTelegram /> Telegram
               </a>
             </div>
           </div>
           <div className="map-container">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.5887712000984!2d37.6173!3d55.7558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDQ1JzIwLjkiTiAzN8KwMzcnMDIuMyJF!5e0!3m2!1sen!2sru!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.2324375277954!2d32.26441144077209!3d48.50960874027871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d042af95ded32d%3A0x6d4c7e818f792653!2z0YPQuy4g0KLQsNGA0LDRgdCwINCa0LDRgNC_0YssIDU3LCDQmtGA0L7Qv9C40LLQvdC40YbQutC40LksINCa0LjRgNC-0LLQvtCz0YDQsNC00YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDI1MDAw!5e0!3m2!1sru!2sua!4v1732294879379!5m2!1sru!2sua"
               width="100%"
               height="100%"
               style={{ border: "0px", height: "100%" }}
