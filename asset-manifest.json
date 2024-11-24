@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-beauty/static/css/main.804c9d6d.css",
-    "main.js": "/portfolio-beauty/static/js/main.c5a78061.js",
+    "main.css": "/portfolio-beauty/static/css/main.8d1b7378.css",
+    "main.js": "/portfolio-beauty/static/js/main.266acc30.js",
     "static/media/photo14.JPG": "/portfolio-beauty/static/media/photo14.dca6eafb4ead35799eae.JPG",
     "static/media/photo5.JPG": "/portfolio-beauty/static/media/photo5.c4f0a6973a365afc282e.JPG",
     "static/media/photo11.JPG": "/portfolio-beauty/static/media/photo11.d1046b6bf6939a9a0e99.JPG",
@@ -19,11 +19,11 @@
     "static/media/photo15.JPG": "/portfolio-beauty/static/media/photo15.071b0f04b1ec8108923c.JPG",
     "static/media/photo13.JPG": "/portfolio-beauty/static/media/photo13.ea77c4a6c049289bb4fc.JPG",
     "index.html": "/portfolio-beauty/index.html",
-    "main.804c9d6d.css.map": "/portfolio-beauty/static/css/main.804c9d6d.css.map",
-    "main.c5a78061.js.map": "/portfolio-beauty/static/js/main.c5a78061.js.map"
+    "main.8d1b7378.css.map": "/portfolio-beauty/static/css/main.8d1b7378.css.map",
+    "main.266acc30.js.map": "/portfolio-beauty/static/js/main.266acc30.js.map"
   },
   "entrypoints": [
-    "static/css/main.804c9d6d.css",
-    "static/js/main.c5a78061.js"
+    "static/css/main.8d1b7378.css",
+    "static/js/main.266acc30.js"
   ]
 }
